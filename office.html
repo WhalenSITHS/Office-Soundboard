@@ -1,0 +1,103 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>The Office</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1 class="header">
+		The Office Soundboard
+	</h1>
+
+	<div class="row">
+		 <div data-key="65" class="key">
+     		 <kbd>A</kbd>
+     		 <div class="portrait"> <img src="img/angela.webp" class="img"></div>
+     		 <span class="sound">Angela</span>
+   		 </div>
+
+   		 <div data-key="83" class="key">
+     		 <kbd>S</kbd>
+     		 <div class="portrait"> <img src="img/michael.webp" class="img"></div>
+     		 <span class="sound">Michael</span>
+   		 </div>
+
+   		 <div data-key="68" class="key">
+     		 <kbd>D</kbd>
+     		 <div class="portrait"> <img src="img/dwight.webp" class="img"></div>
+     		 <span class="sound">Dwight</span>
+   		 </div>
+
+   		 <div data-key="70" class="key">
+     		 <kbd>F</kbd>
+     		 <div class="portrait"> <img src="img/stanley.webp" class="img"></div>
+     		 <span class="sound">Stanley</span>
+   		 </div>
+
+   		 <div data-key="71" class="key">
+     		 <kbd>G</kbd>
+     		 <div class="portrait"> <img src="img/kelly.webp" class="img"></div>
+     		 <span class="sound">Kelly</span>
+   		 </div>
+
+   		 <div data-key="72" class="key">
+     		 <kbd>H</kbd>
+     		 <div class="portrait"> <img src="img/andy.webp" class="img"></div>
+     		 <span class="sound">Andy</span>
+   		 </div>
+
+   		 <div data-key="74" class="key">
+     		 <kbd>J</kbd>
+     		 <div class="portrait"> <img src="img/jim.webp" class="img"></div>
+     		 <span class="sound">Jim</span>
+   		 </div>
+
+   		 <div data-key="75" class="key">
+     		 <kbd>K</kbd>
+     		 <div class="portrait"> <img src="img/kevin.webp" class="img"></div>
+     		 <span class="sound">Kevin</span>
+   		 </div>
+
+   		 <div data-key="76" class="key">
+     		 <kbd>L</kbd>
+     		 <div class="portrait"> <img src="img/creed.webp" class="img"></div>
+     		 <span class="sound">Creed</span>
+   		 </div>
+	</div>
+
+
+
+
+
+
+
+
+<audio data-key="65" src="sounds/bandit.mp3"></audio>
+<audio data-key="83" src="sounds/bankrupt.mp3"></audio>
+<audio data-key="68" src="sounds/dwight.mp3"></audio>
+<audio data-key="70" src="sounds/pretzels.mp3"></audio>
+<audio data-key="71" src="sounds/kelly.mp3"></audio>
+<audio data-key="72" src="sounds/Jello.mp3"></audio>
+<audio data-key="74" src="sounds/jim.mp3"></audio>
+<audio data-key="75" src="sounds/kevin.mp3"></audio>
+<audio data-key="76" src="sounds/creed.mp3"></audio>
+
+
+<script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBAwFywVADICXSjH0VO7070ZXnMwBkZLio",
+    authDomain: "test-e7459.firebaseapp.com",
+    databaseURL: "https://test-e7459.firebaseio.com",
+    projectId: "test-e7459",
+    storageBucket: "test-e7459.appspot.com",
+    messagingSenderId: "485752537395"
+  };
+  firebase.initializeApp(config);
+</script>
+<script type="text/javascript" src="script.js">
+	
+</script>	
+</body>
+</html>
